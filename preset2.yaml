@@ -1,0 +1,67 @@
+#------------------------------------------------------
+# Basic settings
+
+GridResolution : 512
+GridWorldSize : 1000.0
+
+GridOrigin:
+  x : -500.0
+  y : -500.0
+
+# physical size of the grid, meters
+Size      : 250.0
+
+# true - Phillips spectrum, false - JONSWAP
+UsePhillips: false
+
+#------------------------------------------------------
+# Phillips spectrum settings
+
+A         : 0.000008
+WindAlignment : 4.0
+MinWaveLength : 0.01
+WindSpeed : 13
+WindDirection:
+  x : 1.0
+  y : 0.0
+
+#------------------------------------------------------
+Choppiness : 2.0
+DisplacementFactor : 1.0
+
+#------------------------------------------------------
+# env & lighting
+
+RenderSky: false
+SkyboxName : "sky1"
+SkyboxHalfSize : 500.0
+
+SmoothNormals: 0.0
+
+# rgb(8, 120, 151)
+SkyColor:
+  x : 230
+  y : 255
+  z : 255
+
+# rgb(34, 98, 140)
+OceanColor:
+  x : 50
+  y : 160
+  z : 140
+
+LightColor:
+  x : 255
+  y : 255
+  z : 255
+
+LightDir:
+  x : 1.0
+  y : 1.0
+  z : -1.0
+
+Kr  : 1.0
+Kt  : 1.0
+Ks  : 0.1
+
+PhongFactor : 300.0
