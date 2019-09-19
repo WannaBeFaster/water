@@ -15,40 +15,50 @@ It uses a Fast Fourier Transform approach based on famous Tessendorf's work.
 
 
 ### Screenshots
+![Grid size 512x512, Phillips spectrum](https://github.com/WannaBeFaster/water/screenshots/Screen1.png)
 
-![Alt text](/screenshots/screen1.png "Grid size 512*512, Phillips spectrum")
-
-![Alt text](/screenshots/screen2.png "Grid size 512*512, JONSWAP spectrum")
+![Grid size 512x512, JONSWAP spectrum](https://github.com/WannaBeFaster/water/screenshots/Screen2.png)
 
 
 ### Install
 
 Tested on fresh installation of Xubuntu 18.04.3 + updates. No Windows support, sorry.
 
+```sh
 sudo apt install make gcc perl
+```
 
 cmake:
+```sh
 sudo apt install cmake g++
+```
 
 opengl:
+```sh
 sudo apt install libgl1-mesa-dev libglu1-mesa-dev libxinerama-dev libxcursor-dev libxrandr-dev
+```
 
 gtest:
+```sh
 sudo apt install libgtest-dev
 cd /usr/src/gtest
 sudo cmake CMakeLists.txt
 sudo make && sudo make install
+```
 
+other libraries:
+```sh
 sudo apt install libyaml-cpp-dev libfreeimage-dev
+```
 
 app itself:
+```sh
 mkdir build && cd build
 cmake ..
 make
 cp water-app .. && cd ..
 ./water-app preset1.yaml (or any preset)
-
-
+```
 
 ### Acknowledgments
 
