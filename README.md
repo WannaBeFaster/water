@@ -15,9 +15,11 @@ It uses a Fast Fourier Transform approach based on famous Tessendorf's work.
 
 
 ### Screenshots
-![Grid size 512x512, Phillips spectrum](screenshots/Screen1.png)
+Grid size 512x512, Phillips spectrum.
+![](screenshots/Screen1.png)
 
-![Grid size 512x512, JONSWAP spectrum](screenshots/Screen2.png)
+Grid size 512x512, JONSWAP spectrum.
+![](screenshots/Screen2.png)
 
 
 ### Install
